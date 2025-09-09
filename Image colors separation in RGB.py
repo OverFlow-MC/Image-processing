@@ -2,8 +2,8 @@ import os
 import numpy as np
 import matplotlib.pyplot as plt
 def couleurs(x):
-    os.chdir("D:/Informatique/TP11")
-    a=plt.imread('Couchersoleil.jpg')
+    os.chdir("D:/...")
+    a=plt.imread('YourImage.jpg')
     b,c,d=np.shape(a)
     x=np.zeros([b,c,3],dtype="uint8")
     y=np.zeros([b,c,3],dtype="uint8")
@@ -19,5 +19,6 @@ def couleurs(x):
     plt.show()
     plt.imshow(z)
     plt.figure()
+
 
 
